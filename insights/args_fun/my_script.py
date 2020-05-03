@@ -2,7 +2,6 @@ import sys
 
 
 def do_something(start_at=1, stop_at=2):
-    print('Start:', start_at, 'Stop:', stop_at)
     return(start_at, stop_at)
 
 
