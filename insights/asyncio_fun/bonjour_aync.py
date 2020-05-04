@@ -10,4 +10,4 @@ def the_loop():
     # blocking call which returns when the hello_world coroutine is done
     loop.run_until_complete(hello_world())
     loop.close()
-    return 'done'
+    return "done"
